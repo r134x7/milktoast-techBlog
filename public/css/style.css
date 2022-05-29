@@ -1,3 +1,10 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .box {
     border: solid 2px;
     padding: 4px;
@@ -40,4 +47,9 @@ a {
   .no-button:hover {
     color: #065b83;
     text-decoration: underline;
+  }
+
+  .new-post {
+      background-color: red;
+      padding: 10px;
   }

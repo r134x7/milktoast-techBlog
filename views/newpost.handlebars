@@ -1,0 +1,25 @@
+{{!-- // taken from 14-MVC/28-Stu_Mini-Project/views/login.handlebars --}}
+
+{{!-- need to display all posts from user, when click on new post, change to new page to do post --}}
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Create New Post</h2>
+
+    <form class="form post-form">
+      <div class="form-group">
+        <label>Title:</label>
+        <input class="form-input" type="text" id="post-title" />
+      </div>
+      <div class="form-group">
+        <label>Content:</label>
+        <input class="form-input" type="text" id="post-content" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Create</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="./js/newpost.js"></script>
