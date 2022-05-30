@@ -20,7 +20,12 @@ router.post('/', withAuth, async (req, res) => {
 // need to create router for updating a post
 router.put('/:id', withAuth, async (req, res) => {
     try {
-      const postData = await Post.update({
+      const postData = await Post.update(
+      {
+        title: req.body.title,
+        content: req.body.content,
+      },
+      {
         where: {
           id: req.params.id,
           user_id: req.session.user_id,

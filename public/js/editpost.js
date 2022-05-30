@@ -20,6 +20,8 @@ const editFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
+      console.log(title);
+      console.log(content);
       alert('Failed to create post');
     }
   }
