@@ -1,0 +1,30 @@
+{{!-- // taken from 14-MVC/28-Stu_Mini-Project/views/login.handlebars --}}
+
+{{!-- // taken from 14-MVC/28-Stu_Mini-Project/views/login.handlebars --}}
+
+{{!-- need to display all posts from user, when click on new post, change to new page to do post --}}
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Edit Post</h2>
+
+    <form class="form post-form" data-id="{{id}}">
+      <div class="form-group">
+        <label>Title:</label>
+        <input class="form-input" type="text" id="post-title" value="{{title}}" />
+      </div>
+      <div class="form-group">
+        <label>Content:</label>
+        <input class="form-input" type="text" id="post-content" value="{{content}}" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Edit Post</button>
+      </div>
+    </form>
+    <div class="test"></div>
+        <button class="delete-list" data-id="{{id}}">Delete Post</button>
+    </div>
+  </div>
+</div>
+
+<script src="../js/editpost.js"></script>
