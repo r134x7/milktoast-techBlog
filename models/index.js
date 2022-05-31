@@ -2,6 +2,8 @@ const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
 
+// need to set a relationship between the user and the comment to get the comment name
+
 User.hasMany(Post, { // foreign key comes from Post
   foreignKey: 'user_id',
   onDelete: 'CASCADE'

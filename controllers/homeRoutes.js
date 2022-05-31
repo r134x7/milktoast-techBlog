@@ -46,10 +46,11 @@ router.get('/post/:id', async (req, res) => {
         },
       ],
     });
-
+    console.log(postData);
     const post = postData.get({ plain: true });
+    console.log(post);
     res.render('post', {
-      ...post,
+      post,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -73,7 +74,7 @@ router.get('/post/edit/:id', withAuth, async (req, res) => {
     });
     
     const post = postData.get({ plain: true });
-    console.log(post);
+
     res.render('editpost', {
       ...post,
       logged_in: req.session.logged_in
