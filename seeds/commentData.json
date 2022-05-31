@@ -1,14 +1,20 @@
 [
   {
     "comment_content": "A comment one.",
-    "post_id": 1
+    "post_id": 1,
+    "user_id": 3,
+    "comment_name": "Amiko"
   },
   {
     "comment_content": "A comment two.",
-    "post_id": 2
+    "post_id": 2,
+    "user_id": 2,
+    "comment_name": "Lernantino"
   },
   {
     "comment_content": "A comment three.",
-    "post_id": 3
+    "post_id": 3,
+    "user_id": 1,
+    "comment_name": "Sal"
   }
 ]
