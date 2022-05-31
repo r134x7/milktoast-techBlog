@@ -3,13 +3,13 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const title = document.querySelector('#post-title').value.trim();
-  const content = document.querySelector('#post-content').value.trim();
+  const comment_content = document.querySelector('#post-content').value.trim();
+  const post_id = event.target.getAttribute('data-id');
 
-  if (title && content) {
-    const response = await fetch(`/api/posts`, {
+  if (comment_content && post_id) {
+    const response = await fetch(`/api/comments`, {
       method: 'POST',
-      body: JSON.stringify({ title, content }),
+      body: JSON.stringify({ comment_content, post_id }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -18,7 +18,7 @@ const newFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
-      alert('Failed to create post');
+      alert('Failed to create comment');
     }
   }
 };

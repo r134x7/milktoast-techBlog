@@ -1,0 +1,14 @@
+[
+  {
+    "comment_content": "A comment one.",
+    "post_id": 1
+  },
+  {
+    "comment_content": "A comment two.",
+    "post_id": 2
+  },
+  {
+    "comment_content": "A comment three.",
+    "post_id": 3
+  }
+]

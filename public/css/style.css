@@ -1,8 +1,13 @@
-nav {
+header, nav {
+    background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.backone {
+    background: radial-gradient(green, transparent);
 }
 
 .box {

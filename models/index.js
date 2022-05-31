@@ -15,4 +15,11 @@ Comment.belongsTo(Post, { // logically it should work that way...
   foreignKey: 'post_id' // foreign key comes from Comment
 })
 
+Post.hasMany(Comment, { // foreign key comes from Post
+  foreignKey: 'post_id',
+  onDelete: 'CASCADE'
+});
+
+// post has many comments
+
 module.exports = { User, Post, Comment };
