@@ -1,9 +1,20 @@
-header, nav {
+header {
+    background-color: black;
+    padding-bottom: 16px;
+    padding-left: 32px;
+} 
+
+nav {
     background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+    padding: 8px;
+}
+
+main {
+    padding: 32px;
 }
 
 .backone {
@@ -37,6 +48,7 @@ header, nav {
 
 a {
     color: deepskyblue;
+    padding: 8px;
 }
 
 .no-button {
@@ -55,6 +67,18 @@ a {
   }
 
   .new-post {
-      background-color: red;
+      background-color: rgb(193, 44, 18);
       padding: 10px;
+      font-weight: bold;
   }
+
+  #blogheader {
+      background-color: rgb(253, 253, 253);
+      border-radius: 4px;
+      box-shadow: 4px 2px 2px crimson;
+      padding: 4px;
+  }
+
+/* .form-input {
+    /* height: 20em !important; */
+/* } */

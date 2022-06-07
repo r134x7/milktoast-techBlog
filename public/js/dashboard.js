@@ -1,0 +1,1 @@
+document.querySelector("#blogheader").textContent = "Your Dashboard"; // seems I didn't even need span to get this to work

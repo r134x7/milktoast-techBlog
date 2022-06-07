@@ -1,5 +1,7 @@
 // taken from 14-MVC/28-Stu_Mini-Project/public/js/profile.js
 
+document.querySelector("#blogheader").textContent = "Editing Post"; // seems I didn't even need span to get this to work
+
 const editFormHandler = async (event) => {
   event.preventDefault();
 

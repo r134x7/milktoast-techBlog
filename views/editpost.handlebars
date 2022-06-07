@@ -4,7 +4,6 @@
 
 {{!-- need to display all posts from user, when click on new post, change to new page to do post --}}
 
-{{#each posts as |post| }}
 <div class="box">
   <div class="head">
     <h4>
@@ -18,29 +17,29 @@
     </p>
   </div>
 </div>
-{{/each}}
 
-<div class="row">
-  <div class="col-md-6">
+<br>
+
+<div class="box">
+  <div class="head">
     <h2>Edit Post</h2>
-
-    <form class="form post-form" data-id="{{id}}">
+  </div>
+    <form class="form post-form" data-id="{{post.id}}">
       <div class="form-group">
         <label>Title:</label>
-        <input class="form-input" type="text" id="post-title" value="{{title}}" />
+        <input class="form-input" type="text" id="post-title" value="{{post.title}}" />
       </div>
       <div class="form-group">
         <label>Content:</label>
-        <input class="form-input" type="text" id="post-content" value="{{content}}" />
+        <input class="form-input" type="text" id="post-content" value="{{post.content}}" />
       </div>
       <div class="form-group">
-        <button class="btn btn-primary" type="submit">Edit Post</button>
+        <button class="btn" style="font-weight: bold; background-color: skyblue;" type="submit">Edit Post</button>
       </div>
     </form>
     <div class="test"></div>
-        <button class="delete-list" data-id="{{id}}">Delete Post</button>
+        <button class="btn delete-list" style="font-weight: bold; background-color: crimson;" data-id="{{post.id}}">Delete Post</button>
     </div>
-  </div>
 </div>
 
 <script src="../../js/editpost.js"></script>

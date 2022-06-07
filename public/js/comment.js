@@ -1,10 +1,13 @@
 // taken from 14-MVC/28-Stu_Mini-Project/public/js/profile.js
 
+document.querySelector("#blogheader").textContent = "Post a Comment!"; // seems I didn't even need span to get this to work
+
+
 const newFormHandler = async (event) => {
   event.preventDefault();
 
   const comment_content = document.querySelector('#post-content').value.trim();
-  const post_id = event.target.getAttribute('data-id');
+  const post_id = document.querySelector('.post-form').getAttribute('data-id');
 
   if (comment_content && post_id) {
     const response = await fetch(`/api/comments`, {

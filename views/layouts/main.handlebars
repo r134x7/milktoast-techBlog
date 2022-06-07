@@ -10,28 +10,30 @@
 </head>
 
 <body>
-  <div class="flex-column justify-space-around backone">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <a href="/">milktoast techBlog</a>
-      </h1>
+  <div class="backone">
+    <header>
       <nav>
-        <!-- Conditionally render login or logout links -->
-        <a href="/dashboard">dashboard</a>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
         {{#if logged_in}}
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button" style="padding: 2px;" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login</a>
+        <a href="/login">Logout</a>
         {{/if}}
+
+
+      <br>
       </nav>
+
+      <h1>
+        <a href="/" id="blogheader">milktoast techBlog</a>
+      </h1>
     </header>
-    <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
+    <main>
+
       {{{ body }}}
     </main>
-    <footer>
-      
-    </footer>
   </div>
 
   <!-- Render script for logged in users only -->
