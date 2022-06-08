@@ -8,6 +8,7 @@
   
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Deployed Application](#deployed-application)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -19,6 +20,10 @@
   
   ![homepage](assets/images/milkt1.jpg)
   ![viewing a post](assets/images/milkt2.jpg)
+
+  # Deployed Application
+
+  URL to deployed application on Heroku: [https://immense-brushlands-18787.herokuapp.com/](https://immense-brushlands-18787.herokuapp.com/)
 
   # Tests
   
