@@ -59,26 +59,29 @@ a {
     color: #1b89bc;
     text-decoration: none;
     font-size: 100%;
-  }
+}
   
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
 
-  .new-post {
-      background-color: rgb(193, 44, 18);
-      padding: 10px;
-      font-weight: bold;
-  }
+.new-post {
+    background-color: rgb(193, 44, 18);
+    padding: 10px;
+    font-weight: bold;
+}
 
-  #blogheader {
-      background-color: rgb(253, 253, 253);
-      border-radius: 4px;
-      box-shadow: 4px 2px 2px crimson;
-      padding: 4px;
-  }
+#blogheader {
+    background-color: rgb(253, 253, 253);
+    border-radius: 4px;
+    box-shadow: 4px 2px 2px crimson;
+    padding: 4px;
+}
 
-/* .form-input {
-    /* height: 20em !important; */
-/* } */
+#signupaccount {
+    background: black;
+    padding: 4px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px crimson;
+}
