@@ -2,7 +2,7 @@
 
   # Description
   
-  A simple blog that uses the express framework to allow users to signup an account and make posts and comments. Uses mysql2 NPM package for database handling of user accounts, posts, comments and sessions/cookies.
+  A simple blog that uses the express framework to allow users to signup an account and make posts and comments. Uses mysql2 NPM package for database handling of user accounts, posts, comments and sessions/cookies. HTML pages are rendered using Express-handlebars.
 
   # Table of Contents
   
