@@ -1,20 +1,26 @@
 [
   {
-    "comment_content": "A comment one.",
+    "comment_content": "You sure do.",
     "post_id": 1,
     "user_id": 3,
-    "comment_name": "Amiko"
+    "comment_name": "Barney"
   },
   {
-    "comment_content": "A comment two.",
+    "comment_content": "That's the worst name I ever heard.",
     "post_id": 2,
-    "user_id": 2,
-    "comment_name": "Lernantino"
+    "user_id": 1,
+    "comment_name": "Moe"
   },
   {
-    "comment_content": "A comment three.",
-    "post_id": 3,
-    "user_id": 1,
-    "comment_name": "Sal"
+    "comment_content": "[ Sobbing ]",
+    "post_id": 2,
+    "user_id": 4,
+    "comment_name": "Joey Jo-Jo"
+  },
+  {
+    "comment_content": "Bye, Joey Jo-Jo!",
+    "post_id": 2,
+    "user_id": 3,
+    "comment_name": "Barney"
   }
 ]
