@@ -23,7 +23,7 @@
 
   # Deployed Application
 
-  URL to deployed application on Heroku: [https://immense-brushlands-18787.herokuapp.com/](https://immense-brushlands-18787.herokuapp.com/)
+  This application is no longer hosted on Heroku.
 
   # Tests
   
